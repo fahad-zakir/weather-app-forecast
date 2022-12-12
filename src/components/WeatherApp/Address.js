@@ -1,8 +1,8 @@
 import React from "react";
 
-function Address({ getCoordinates }) {
+function Address({ getForecast }) {
   return (
-    <form onSubmit={getCoordinates}>
+    <form onSubmit={getForecast}>
       <input type="text" name="street" placeholder="Street Address..." />
       <input type="text" name="city" placeholder="City..." />
       <input type="text" name="state" placeholder="State..." />
