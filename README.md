@@ -1,7 +1,7 @@
 # 7-day-forecast
 # Weather-App
 
-https://astonishing-longma-8cb604.netlify.app/https://damp-spire-11988.herokuapp.com/
+https://astonishing-longma-8cb604.netlify.app/
 
 ## Project Description
 Make sure to check the weather forecast before planning a trip or starting your week with this 7 day forecast app. Fill in the address and search based on your location.
