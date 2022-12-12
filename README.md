@@ -15,7 +15,7 @@ https://imgur.com/ztkXRQw
 # Technolgoies Used
 * US Census Geocoding service for converting addresses into latitude and longitude: https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.pdf
 * US National Weather Service API: https://www.weather.gov/documentation/services-web-api* 
-* React, Node JS, express generator, mongoDB, mongoose, heroku
+* React, netlify 
 * Trello
 * TypeScript in works 
 
