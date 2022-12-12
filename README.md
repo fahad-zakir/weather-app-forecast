@@ -18,5 +18,5 @@ https://imgur.com/ztkXRQw
 * TypeScript in works 
 
 # Resources
-* For some CSS - used some youtube tutorial, hamza weather app
+* For some CSS - used hamza weather app
 
