@@ -4,7 +4,6 @@ function Weather({ forecast }) {
     <div className="weather-container">
       {forecast &&
         forecast.map((day) => {
-          console.log(day);
           return (
             <div className="weather-card-container">
               <div className="ForecastContainer">
