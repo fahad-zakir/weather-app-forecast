@@ -100,9 +100,6 @@ button:active {
     outline: none;
 }
 
-.row {
-  width: 100%;
-}
 .weather__info {
     border: 1px solid gray;
     width: 60%;
@@ -110,25 +107,12 @@ button:active {
     font-weight: 200;
 }
 
-.weather__key {
-    border-bottom: solid 2px rgba(255, 255, 255, 0.06);
-    font-weight: 400;
-}
-
-.weather__key:last-child {
-    border: 0;
-}
-
-.weather__value {
-    color: #fff;
-    font-weight: 200;
-}
-
 .weather__error {
     color: #f16051;
     font-size: 20px;
     letter-spacing: 1px;
-    font-weight: 200;
+    font-weight: 400;
+    padding-top: 20px;
 }
 
 .weather-card-container {

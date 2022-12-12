@@ -1,6 +1,6 @@
 import React from "react";
 
-function Address({ getForecast }) {
+function Address({ getForecast, error }) {
   return (
     <form onSubmit={getForecast}>
       <input type="text" name="street" placeholder="Street Address..." />
@@ -8,6 +8,9 @@ function Address({ getForecast }) {
       <input type="text" name="state" placeholder="State..." />
       <input type="text" name="zip" placeholder="Zip Code..." />
       <button>Get Weather</button>
+      <div className="weather__error">
+      {error}
+      </div>
     </form>
   );
 }
