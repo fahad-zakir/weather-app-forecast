@@ -5,9 +5,6 @@ body {
     font-family: "Open Sans", serif;
     background: linear-gradient(to right, #f1f1f1, #bdb3b1);
 }
-.container {
-  width: 1000px;
-}
 .wrapper {
     height: 60vh;
     display: flex;
@@ -77,11 +74,9 @@ input[type="text"] {
     margin-right: 20px;
     font-size: 20px;
 }
-
 input[type="text"] {
     outline: none;
 }
-
 button {
     border: 0;
     padding: 8px 20px;
@@ -95,18 +90,15 @@ button {
     color: #000;
     font-weight: 100;
 }
-
 button:active {
     outline: none;
 }
-
 .weather__info {
     border: 1px solid gray;
     width: 60%;
     font-size: 15px;
     font-weight: 200;
 }
-
 .weather__error {
     color: #f16051;
     font-size: 20px;
@@ -114,7 +106,6 @@ button:active {
     font-weight: 400;
     padding-top: 20px;
 }
-
 .weather-card-container {
     display: flex;
     flex-direction: column;

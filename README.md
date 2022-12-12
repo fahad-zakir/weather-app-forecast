@@ -13,10 +13,12 @@ https://trello.com/b/OzSRUUpg/net-react-weatherapp
 https://imgur.com/ztkXRQw
 
 # Technolgoies Used
+* US Census Geocoding service for converting addresses into latitude and longitude: https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.pdf
+* US National Weather Service API: https://www.weather.gov/documentation/services-web-api* 
 * React, Node JS, express generator, mongoDB, mongoose, heroku
 * Trello
 * TypeScript in works 
 
 # Resources
-* For some CSS - used hamza weather app
+* For some CSS - used hamza weather app tutorial
 

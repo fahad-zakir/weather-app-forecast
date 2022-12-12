@@ -29,7 +29,7 @@ function WeatherContainer() {
     }
   };
   return (
-    <div>
+    <div className="main-container">
       <div className="wrapper">
         <div className="main">
           <div className="container-fluid">
