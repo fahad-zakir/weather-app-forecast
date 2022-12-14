@@ -16,6 +16,7 @@ function WeatherContainer() {
     const coordinates = await axios.get(
       `https://serene-peak-54939.herokuapp.com/https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=${streetAddress}%2C+${city}%2C+${state}+${zip}&benchmark=2020&format=json`
     );
+    console.log(coordinates)
     if (streetAddress && city && state && zip) {
       let forecast = await axios.get(
         `https://api.weather.gov/points/${coordinates.data.result.addressMatches[0].coordinates.y},${coordinates.data.result.addressMatches[0].coordinates.x}`
